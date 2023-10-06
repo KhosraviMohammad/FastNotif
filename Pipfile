@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+uvicorn = "*"
+fastapi = "*"
+pydantic-settings = "*"
+python-environ = "*"
+pydantic = {extras = ["email"], version = "*"}
+sqlalchemy = "*"
+psycopg2-binary = "*"
+emails = "*"
+raven = "*"
+tenacity = "*"
+python-multipart = "*"
+celery = "*"
+importlib-metadata = "*"
+requests = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
